@@ -1,6 +1,6 @@
 # 🤟 Signify — Traductor de Lengua de Señas (EC/CL/MX)
 
-**Tecnología para incluir, aprender y comunicar.** Signify es una plataforma web que permite **buscar, comparar y aprender** lengua de señas en **tres variantes regionales** (Ecuador, Chile y México) con apoyo de **IA**. Ideal instituciones y equipos de innovación** que buscan impacto social medible.
+**Tecnología para incluir, aprender y comunicar.** Signify es una plataforma web que permite **buscar, comparar y aprender** lengua de señas en **tres variantes regionales** (Ecuador, Chile y México) con apoyo de **IA**. Ideal para **instituciones y equipos de innovación** que buscan impacto social medible.
 
 [![Streamlit](https://img.shields.io/badge/Powered%20by-Streamlit-red?style=flat-square&logo=streamlit)](https://streamlit.io)
 [![Python](https://img.shields.io/badge/Built%20with-Python-blue?style=flat-square&logo=python)](https://python.org)
