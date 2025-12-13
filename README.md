@@ -299,10 +299,12 @@ Lengua_Senas/
 ├── __init__.py                 # Inicialización del paquete
 ├── app.py                      # Aplicación principal Streamlit
 ├── requirements.txt            # Dependencias del proyecto
+├── run.bat                     # Script de ejecución rápida
 ├── setup.py                    # Configuración de instalación
 ├── señas_ecuatorianas.csv     # Base de datos ecuatoriana
 ├── señas_chilenas.csv         # Base de datos chilena
 ├── señas_mexicanas.csv        # Base de datos mexicana
+├── webcam_integration.py       # Lógica de integración webcam
 ├── analysis/                   # Módulos de análisis
 │   ├── __init__.py            # Inicialización del módulo
 │   └── comparative_analysis.py # Análisis comparativo
@@ -312,11 +314,17 @@ Lengua_Senas/
 │   └── sign_processor.py      # Procesador de señas y búsquedas
 ├── database/                   # Gestión de datos
 │   └── signs_database.py      # Base de datos de señas
-└── utils/                      # Utilidades del sistema
-    ├── __init__.py            # Inicialización del módulo
-    ├── config_utils.py        # Configuración de la aplicación
-    ├── file_utils.py          # Utilidades de archivos
-    └── validation_utils.py    # Validaciones del sistema
+├── utils/                      # Utilidades del sistema
+│   ├── __init__.py            # Inicialización del módulo
+│   ├── config_utils.py        # Configuración de la aplicación
+│   ├── file_utils.py          # Utilidades de archivos
+│   └── validation_utils.py    # Validaciones del sistema
+└── webcam_dataset/             # Módulo de reconocimiento visual
+    ├── collect_data.py        # Script de recolección de datos
+    ├── dataset_senas/         # Dataset de muestras (.npy)
+    ├── modelo_senas.pkl       # Modelo entrenado (KNN)
+    ├── predict.py             # Script de predicción independiente
+    └── train.py               # Script de entrenamiento del modelo
 ```
 
 ---
